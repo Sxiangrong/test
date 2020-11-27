@@ -1,0 +1,60 @@
+.box{
+    width: 800px;
+    height: 850px;
+    border: 1px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+div img{
+    width: 800px;
+    height: 200px;
+}
+.top {
+    width: 800px;
+    height: 200px;
+    background-color:ghostwhite;
+}
+.font>li{
+    list-style: none;
+    display: inline-block;
+    width: 50px;
+}
+li a{
+    font-family: 楷体;
+    font-size: 30px;
+    color: #1622ff;
+}
+.divtext{
+    height: 500px;
+    width: 630px;
+
+}
+.font{
+    font-family: 宋体;
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top:150px;
+
+}
+li+li+li{
+    color: #4a78c2;
+}
+.font>li+li:before{
+    display: inline;
+    content:'/';
+}
+
+.left{
+    height:400px;
+    width: 200px;
+    background-color: #b8faf8;
+    float: left;
+}
+.right{
+    height:400px;
+    width: 600px;
+
+    float:left;
+}

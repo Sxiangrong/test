@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>少儿英语</title>
+    <link rel="stylesheet" href="../css/2.child.css">
+    <script src="../js/child.js"></script>
+</head>
+<style>
+    .bagimg{
+        background-image: url("../images/child/1.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .nav{
+        width:100%;
+
+        padding-top:150px;
+        height:60px;
+        line-height: 60px;
+        list-style: none;
+        font-size: 18px;
+    }
+    .nav li{
+        display:block;
+        height: 20px;
+        line-height: 20px;
+        border-right:1px dashed #122b40;
+        padding: 0 40px;
+        color: #269abc;
+    }
+    .nav li:hover{
+        transform: scale(1.1);
+        display: block;
+        color: black;
+    }
+
+    ul,li{
+        list-style-type:none;
+    }
+    .ul1{
+        width:980px;
+        height:48px;
+        margin:0 auto;
+    }
+    .li1{
+        float:left;
+        width:87px;
+        height:48px;
+        text-align:center;
+        line-height:48px;   /* float属性，li标签就会横排显示 */
+
+    }
+</style>
+<body class="box">
+<div >
+    <div>
+        <div class="top bagimg">
+            <ul class="nav ul1 ">
+                <li class="li1"><a href="index.html">首页</a></li>           <!--添加导航栏-->
+                <li class="li1"><a href="tofel.html">托福</a></li>
+                <li class="li1"><a href="four.html">四/六级</a></li>
+                <ul/>
+        </div>
+        <div style="width:100%;box-shadow: 5px 5px 5px #72807f;">
+            <div class="left">
+                <ul>
+                    <li><a href="../file/child1.txt" target="content">等级考试</a></li>
+                    <li><a href="../file/test1.txt" target="content">真题集合</a></li>
+                    <li><a href="../file/content1.txt" target="content" class="divtext" >相关内容</a></li>
+                </ul>
+            </div>
+            <div class="right ">
+                <iframe name="content" style="height: 400px;width: 600px" />
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<div>
+    <img src="../images/child/page.png" style="height: 200px;width: 800px;margin-top: 600px">
+</div>
+</body>
+</html>
